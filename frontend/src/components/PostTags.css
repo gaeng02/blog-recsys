@@ -1,0 +1,38 @@
+.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.post-tag {
+    padding: 0.25rem 0.5rem;
+    background: #e3f2fd;
+    color: #1976d2;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid #bbdefb;
+}
+
+.post-tag.clickable {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.post-tag.clickable:hover {
+    background: #1976d2;
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* 상세 페이지에서의 태그 스타일 */
+.post-detail .post-tags {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post-detail .post-tag {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+} 

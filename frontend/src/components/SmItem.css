@@ -1,0 +1,47 @@
+.sm-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: 230px;
+    height: 190px;
+    cursor: pointer;
+}
+
+.sm-item-image {
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 2;
+}
+
+.sm-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sm-item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.sm-item-title {
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: normal;
+    max-height: 12px;
+}
+
+.sm-item-date {
+    font-size: 8px;
+    color: #666;
+}

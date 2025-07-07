@@ -1,0 +1,209 @@
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.loading-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 1rem;
+  color: #666;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.error-message {
+  background: #ffebee;
+  color: #c62828;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  border: 1px solid #ffcdd2;
+}
+
+.empty-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 1rem;
+  color: #666;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* 추천 섹션 스타일 */
+.recommended-section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+}
+
+.recommended-section .posts-title {
+  color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 1.5rem;
+}
+
+.recommended-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.recommended-container .item {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: #222;
+}
+
+.recommended-container .item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.recommended-container .item .item-title {
+  color: #111;
+  font-weight: 700;
+}
+
+/* 최신 게시글 섹션 스타일 */
+.latest-section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+}
+
+.latest-section .posts-title {
+  color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 1.5rem;
+}
+
+.latest-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.latest-container .item {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: #222;
+}
+
+.latest-container .item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.latest-container .item .item-title {
+  color: #111;
+  font-weight: 700;
+}
+
+/* 인기 게시글 섹션 스타일 */
+.popular-section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  border-radius: 12px;
+  color: white;
+}
+
+.popular-section .posts-title {
+  color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 1.5rem;
+}
+
+.popular-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.popular-container .item {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: #222;
+}
+
+.popular-container .item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.popular-container .item .item-title {
+  color: #111;
+  font-weight: 700;
+}
+
+.posts-section {
+  margin-top: 2rem;
+}
+
+.posts-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.filter-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: #e3f2fd;
+  border-radius: 4px;
+  border: 1px solid #bbdefb;
+  color: #1976d2;
+  font-weight: 500;
+}
+
+.clear-filter {
+  padding: 0.25rem 0.5rem;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background-color 0.2s ease;
+}
+
+.clear-filter:hover {
+  background: #1565c0;
+}
+
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+} 
